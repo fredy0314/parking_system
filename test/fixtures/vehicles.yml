@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  model: MyString
+  vim: MyString
+  year: MyString
+  user_id: 
+
+two:
+  model: MyString
+  vim: MyString
+  year: MyString
+  user_id: 
