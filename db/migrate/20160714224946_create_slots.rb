@@ -1,8 +1,9 @@
 class CreateSlots < ActiveRecord::Migration
   def change
     create_table :slots do |t|
-      t.string :location_id.integer
+      t.integer :location_id
       t.references :location, index: true, foreign_key: true
+      t.boolean :ocupied
 
       t.timestamps null: false
     end

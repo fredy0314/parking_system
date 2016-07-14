@@ -1,9 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  location_id.integer: MyString
+  location_id: 1
   location_id: 
+  ocupied: false
 
 two:
-  location_id.integer: MyString
+  location_id: 1
   location_id: 
+  ocupied: false
