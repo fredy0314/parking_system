@@ -34,7 +34,7 @@ ActiveRecord::Schema.define(version: 20160714235006) do
   add_index "park_records", ["vehicle_id"], name: "index_park_records_on_vehicle_id"
 
   create_table "slots", force: :cascade do |t|
-    t.boolean  "ocupied"
+    t.boolean  "occupied"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
     t.integer  "location_id"

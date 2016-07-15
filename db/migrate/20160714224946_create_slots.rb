@@ -3,7 +3,7 @@ class CreateSlots < ActiveRecord::Migration
     create_table :slots do |t|
       t.integer :location_id
       t.references :location, index: true, foreign_key: true
-      t.boolean :ocupied
+      t.boolean :occupied
 
       t.timestamps null: false
     end
